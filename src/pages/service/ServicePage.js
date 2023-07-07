@@ -31,21 +31,21 @@ const ServicePage = () => {
                     p-5 gap-y-5 dark:shadow-slate-950 bg-opacity-20
                     rounded shadow-xl md:grid-cols-4 lg:grid-cols-5
                     `}>
-                    <IconTech icon={<BiLogoFlutter size={'5rem'} />} />
-                    <IconTech icon={<SiKotlin size={'5rem'} />} />
-                    <IconTech icon={<BiLogoReact size={'5rem'} />} />
-                    <IconTech icon={<BiLogoJavascript size={'5rem'} />} />
-                    <IconTech icon={<BiLogoFirebase size={'5rem'} />} />
-                    <IconTech icon={<SiCsharp size={'5rem'} />} />
-                    <IconTech icon={<BiLogoFigma size={'5rem'} />} />
-                    <IconTech icon={<SiExpress size={'5rem'} />} />
-                    <IconTech icon={<FaNode size={'5rem'} />} />
-                    <IconTech icon={<BiLogoPhp size={'5rem'} />} />
-                    <IconTech icon={<TbSql size={'5rem'} />} />
-                    <IconTech icon={<BiLogoHtml5 size={'5rem'} />} />
-                    <IconTech icon={<BiLogoCss3 size={'5rem'} />} />
-                    <IconTech icon={<BiLogoTailwindCss size={'5rem'} />} />
-                    <IconTech icon={<BiLogoBootstrap size={'5rem'} />} />
+                    <IconTech icon={<BiLogoFlutter size={'4.5rem'} />} />
+                    <IconTech icon={<SiKotlin size={'4.5rem'} />} />
+                    <IconTech icon={<BiLogoReact size={'4.5rem'} />} />
+                    <IconTech icon={<BiLogoJavascript size={'4.5rem'} />} />
+                    <IconTech icon={<BiLogoFirebase size={'4.5rem'} />} />
+                    <IconTech icon={<SiCsharp size={'4.5rem'} />} />
+                    <IconTech icon={<BiLogoFigma size={'4.5rem'} />} />
+                    <IconTech icon={<SiExpress size={'4.5rem'} />} />
+                    <IconTech icon={<FaNode size={'4.5rem'} />} />
+                    <IconTech icon={<BiLogoPhp size={'4.5rem'} />} />
+                    <IconTech icon={<TbSql size={'4.5rem'} />} />
+                    <IconTech icon={<BiLogoHtml5 size={'4.5rem'} />} />
+                    <IconTech icon={<BiLogoCss3 size={'4.5rem'} />} />
+                    <IconTech icon={<BiLogoTailwindCss size={'4.5rem'} />} />
+                    <IconTech icon={<BiLogoBootstrap size={'4.5rem'} />} />
                 </section>
             </div>
         </Glassy>
