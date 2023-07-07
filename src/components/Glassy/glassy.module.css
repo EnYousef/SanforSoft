@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700;800;900&family=Courgette&display=swap');
+@font-face {
+    font-family: 'Cairo';
+    src: url('../../assets/fonts/Cairo.ttf');
+}
 
 .Background {
     background: url(../../assets/Untitled-2.svg) no-repeat;
@@ -18,4 +21,3 @@
     height: 100%;
     position: absolute;
 }
-
