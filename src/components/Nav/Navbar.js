@@ -16,7 +16,7 @@ export function Nav() {
             <button onClick={() => setMenu(!menu)} className='md:mr-[4.7rem] lg:mr-[10.6rem] mr-2 duration-200' >
                 {menu ? <div className="rotate-180 duration-700"><PiXLight size={'3.5rem'} /></div> : <div className=""><CgMenuRightAlt size={'3.5rem'} /></div>}
             </button>
-            <Link to={'/'}><img className='ml-0 md:ml-14 lg:ml-40 filter contrast-200 w-14' src={localStorage.theme === null?Logo:theme === 'light'?Logo:WhiteLogo} alt="SanforSoft Logo" /></Link>
+            <Link to={'/'}><img className='ml-0 md:ml-14 lg:ml-40 filter contrast-200 w-14' src={localStorage.length === 0?Logo:theme === 'light'?Logo:WhiteLogo} alt="SanforSoft Logo" /></Link>
         </nav>
         <NavElements isVisible={menu} />
     </>

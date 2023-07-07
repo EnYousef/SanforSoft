@@ -21,3 +21,6 @@
     position: absolute;
 }
 
+button:focus {
+    outline: none;
+}
