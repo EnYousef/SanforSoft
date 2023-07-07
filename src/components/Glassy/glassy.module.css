@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700;800;900&family=Courgette&display=swap');
+
+.Background {
+    background: url(../../assets/Untitled-2.svg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    direction: rtl;
+    font-family: 'Cairo';
+    box-sizing: border-box;
+    /* font-family: 'Courgette', cursive; */
+}
+
+.Background::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
