@@ -2,8 +2,8 @@ import React from 'react';
 import { Glassy } from '../../components/Glassy/Glassy';
 import { Nav } from '../../components/Nav/Navbar';
 import { Name } from '../../components/usefulComponents/Name';
-import { BiLogoFlutter, BiLogoReact, BiLogoJavascript, BiLogoFirebase, BiLogoFigma, BiLogoPhp, BiLogoCss3, BiLogoTailwindCss, BiLogoHtml5, BiLogoBootstrap } from "react-icons/bi";
-import { SiCsharp, SiExpress, SiKotlin } from "react-icons/si";
+import { BiLogoFlutter, BiLogoReact, BiLogoJavascript, BiLogoFirebase, DiPhotoshop, BiLogoFigma, BiLogoPhp, SiAdobeillustrator, BiLogoCss3, BiLogoTailwindCss, BiLogoHtml5, BiLogoBootstrap } from "react-icons/bi";
+import { SiCsharp, SiExpress, SiKotlin, SiLaravel, SiMicrosoftsqlserver } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { TbSql } from "react-icons/tb";
 
@@ -18,6 +18,7 @@ const ServicePage = () => {
                     <ServiceCard title={'تطبيقات  الموبايل'} desc={'تطوير تطبيقات الموبايل لجميع اجهزة الموبايل Android و iOS من خلال تقنيات مختلفة وبواجهات مميزه وانيقة .'} />
                     <ServiceCard title={'تطبيقات  الويب'} desc={'تطوير المواقع الالكترونية باحدث التنقيات وجعل هذه المواقع مؤامة لمختلف الانظمة الموبايل والاجهزة الاخرى المختلفة .'} />
                     <ServiceCard title={'تطبيقات  الحاسوب'} desc={'تطوير تطبيقات الحاسوب وانظمة المعاملات اليومية مثل النظم المحاسبية وبواجهات حديثة ومميزه .'} />
+                    <ServiceCard title={'تصميم الشعارات'} desc={''} />
                 </ServiceGrid>
                 <ServiceTitle title="خدمات الافراد او المطورين :" classes='mt-8' />
                 <ServiceGrid >
@@ -46,6 +47,10 @@ const ServicePage = () => {
                     <IconTech icon={<BiLogoCss3 size={'4.5rem'} />} />
                     <IconTech icon={<BiLogoTailwindCss size={'4.5rem'} />} />
                     <IconTech icon={<BiLogoBootstrap size={'4.5rem'} />} />
+                    <IconTech icon={<SiLaravel size={'4.5rem'} />} />
+                    <IconTech icon={<SiMicrosoftsqlserver size={'4.5rem'} />} />
+                    <IconTech icon={<DiPhotoshop size={'4.5rem'} />} />
+                    <IconTech icon={<SiAdobeillustrator size={'4.5rem'} />} />
                 </section>
             </div>
         </Glassy>
