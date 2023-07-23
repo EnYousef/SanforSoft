@@ -2,10 +2,11 @@ import React from 'react';
 import { Glassy } from '../../components/Glassy/Glassy';
 import { Nav } from '../../components/Nav/Navbar';
 import { Name } from '../../components/usefulComponents/Name';
-import { BiLogoFlutter, BiLogoReact, BiLogoJavascript, BiLogoFirebase, DiPhotoshop, BiLogoFigma, BiLogoPhp, BiLogoCss3, BiLogoTailwindCss, BiLogoHtml5, BiLogoBootstrap } from "react-icons/bi";
+import { BiLogoFlutter, BiLogoReact, BiLogoJavascript, BiLogoFirebase, BiLogoFigma, BiLogoPhp, BiLogoCss3, BiLogoTailwindCss, BiLogoHtml5, BiLogoBootstrap } from "react-icons/bi";
 import { SiCsharp, SiExpress, SiKotlin, SiLaravel, SiMicrosoftsqlserver, SiAdobeillustrator } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { TbSql } from "react-icons/tb";
+import { DiPhotoshop } from "react-icons/di";
 
 const ServicePage = () => {
     return (
