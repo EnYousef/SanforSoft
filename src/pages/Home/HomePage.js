@@ -10,7 +10,7 @@ const HomePage = () => {
     return (
         <Glassy classes=''>
             <Nav />
-            <Name title={'سنابل سوفت'} classes='mb-24 mt-20 text-center' />
+            <Name title={'Smart Tech'} classes='mb-24 mt-20 text-center' />
             <div className='grid md:grid-cols-2 gap-4 sm:grid-cols-1 lg:grid-cols-4 p-4 pb-8 w-full'>
                 <SectionCard title="خدماتنا" desc="معلومات حول الخدمات التي نقدمها ." link='/service' />
                 <SectionCard title="اعمالنا" desc="المشاريع السابقة التي عملنا عليها ." link='/ourwork' />
