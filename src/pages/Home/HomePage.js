@@ -15,7 +15,7 @@ const HomePage = () => {
                 <SectionCard title="خدماتنا" desc="معلومات حول الخدمات التي نقدمها ." link='/service' />
                 <SectionCard title="اعمالنا" desc="المشاريع السابقة التي عملنا عليها ." link='/ourwork' />
                 <SectionCard title="تواصل معانا" desc="حسابتنا على وسائل التواصل لتواصل معانا ." link='/contact' />
-                <SectionCard title="من نحن " desc="تفاصيل حول سنفورسوفت وماهي رسالتنا واهدافنا ." link='/about' />
+                <SectionCard title="من نحن " desc="تفاصيل حول ستارسوفت وماهي رسالتنا واهدافنا ." link='/about' />
             </div>
         </Glassy>
     );
